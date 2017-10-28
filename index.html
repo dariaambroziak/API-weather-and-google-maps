@@ -11,38 +11,35 @@
 <body>
 
 	<form>
-		<input type="text" name="citi" id="citiInput" placeholder="Wpisz miasto">
-		<button class="btn">Znajdź</button>
+			<input type="text" name="citi" id="citiInput" placeholder="Proszę wspisywać nazwy miast w języku angielskim lub bez polskich liter. Np. Lodz">
+			<button class="btn">Znajdź</button>
 	</form>
 
 	<div id="weather">
-<table class="weather">
+			<div class="maps">
+					<h3 class="look">My Map from google</h3>
+					<div id="map"></div>
+			</div>
+			<table class="weather"></table>
+	</div>
 
-</table>
-<div class="maps">
-
-	<h3 class="look">My Map from google</h3>
-	<div id="map"></div>
-</div>
-</div>
-<footer>
-	<p>
-		&copy; created by Daria Ambroziak-Napora
-	</p>
-	<ul>
-		<a href="https://www.facebook.com/"><li class="face foot-img"></li></a>
-		<a href="https://www.linkedin.com/in/daria-a-140a76151/"><li class="linked foot-img"></li></a>
-		<a href="https://github.com/deka381"><li class="git foot-img"></li></a>
-
-	</ul>
-</footer>
+	<footer>
+			<p>
+					&copy; created by Daria Ambroziak-Napora
+			</p>
+			<ul>
+					<a href="https://www.facebook.com/"><li class="face foot-img"></li></a>
+					<a href="https://www.linkedin.com/in/daria-a-140a76151/"><li class="linked foot-img"></li></a>
+					<a href="https://github.com/dariaambroziak"><li class="git foot-img"></li></a>
+			</ul>
+	</footer>
 	<script
-	src="https://code.jquery.com/jquery-3.2.1.min.js"
-	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-	crossorigin="anonymous"></script>
-	 <script async defer
-	 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlYJMndwTUl_KVcUIqQkde-h_N2Om_10E&callback=initMap">
-	 </script>
+			src="https://code.jquery.com/jquery-3.2.1.min.js"
+			integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			crossorigin="anonymous"></script>
+	<script async defer
+	 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlYJMndwTUl_KVcUIqQkde-h_N2Om_10E">
+	</script>
 
 <script src="./js/app.js"></script>
 
