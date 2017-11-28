@@ -1,6 +1,6 @@
 # API-weather-and-google-maps
 
-TECHNOLOGIES: HTML5, CSS, SASS, RWD, API, GULP, WEBPACK
+TECHNOLOGIES: HTML5, CSS, JS, API GOOGLE MAPS, API WEATHER
 
 <a href="https://dariaambroziak.github.io/API-weather-and-google-maps/">DEMO</a>
 
